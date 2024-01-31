@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          🌍
+          🌐
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            clint360 &nbsp;
-            <span className='sm:block hidden'> | Dev Portfolio</span>
+            Dylan &nbsp;
+            <span className='sm:block hidden'> | Portfolio</span>
           </p>
         </Link>
 

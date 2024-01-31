@@ -4,11 +4,11 @@ import bannerImg  from "./WhatsApp_Image_2023-10-17_at_12.10.33_PM-removebg-prev
 const RightBanner = () => {
   return (
     <div className="rightbanner">
-      <img
+      {/* <img
         className=""
         src={bannerImg}
         alt="bannerImg"
-      />
+      /> */}
     </div>
   );
 }
