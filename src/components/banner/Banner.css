@@ -1,0 +1,87 @@
+.banner {
+    display: flex;
+}
+
+.leftbanner {
+    width: 65%;
+}
+
+.rightbanner {
+    border-radius: 50%;
+    border-bottom: 2px solid rgba(133, 15, 96, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightbanner img{
+    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    overflow: none;
+    height: 70%;
+
+    border-bottom: 4px solid rgb(184, 3, 127);
+}
+
+.textbl {
+    color: rgb(162, 5, 162);
+    height: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .media {
+
+    }
+    
+    .landingView {
+    height: auto
+}
+
+ .headerh2text {
+    height: 6rem !important;
+    overflow: hidden;
+    font-size: 40px;
+}
+
+.bigtext {
+    zoom: 80%;
+}
+
+    .leftbanner {
+    width: 100%;
+    zoom: 90%;
+    padding-bottom: 100px;
+}
+
+    .landingView {
+        zoom: 80%
+    }
+
+    .headerh2text {
+        font-size: 20px;
+    }
+
+    .rightbanner {
+    margin-top: -100px;
+    background: transparent;
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 05%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(133, 15, 96);
+}
+
+
+
+}
