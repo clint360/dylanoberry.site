@@ -167,32 +167,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I'm truly marveled at how Clint is able to bring my figma designs to life, even the ones I thought should be very difficult. Clint is indeed Skillful.",
-    name: "Boanong Joshua",
-    designation: "UI/UX Designer",
-    company: "OptimU",
-    image: "https://media.licdn.com/dms/image/C5603AQHPgcHCnvja0A/profile-displayphoto-shrink_800_800/0/1553244387743?e=2147483647&v=beta&t=ySrlKHPHsPGRUaNL2hb-MQ2Tc_IjpqKU1XTbSGN6MF8",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Clint does.",
-    name: "Mbah Daniel",
-    designation: "CEO",
-    company: "Elite Panel237",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Clint has been the most 'open-to-learn-new-things' student I have had in all my Algorithms and data structures classes",
-    name: "Carlyle Ankeambom",
-    designation: "Tutor",
-    company: "Rebase Academy",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYI05R8njC7PiGxxK_l04fxSBAVOV68Op0S-HaNH48kFJ480Y-V7ouPY7jC6RINKdxVNE&usqp=CAU",
-  },
-];
+const testimonials = [];
 
 const projects = [];
 
