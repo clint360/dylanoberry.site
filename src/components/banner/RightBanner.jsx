@@ -8,7 +8,8 @@ const RightBanner = () => {
         className=""
         src={bannerImg}
         alt="bannerImg"
-      /> */}
+      /> 
+      */}
     </div>
   );
 }
