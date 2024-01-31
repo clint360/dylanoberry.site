@@ -73,7 +73,7 @@ const services = [
   },
 ];
 
-// const technologies = [
+const technologies = []
 //   {
 //     name: "HTML 5",
 //     icon: html,
@@ -167,156 +167,33 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I'm truly marveled at how Clint is able to bring my figma designs to life, even the ones I thought should be very difficult. Clint is indeed Skillful.",
-//     name: "Boanong Joshua",
-//     designation: "UI/UX Designer",
-//     company: "OptimU",
-//     image: "https://media.licdn.com/dms/image/C5603AQHPgcHCnvja0A/profile-displayphoto-shrink_800_800/0/1553244387743?e=2147483647&v=beta&t=ySrlKHPHsPGRUaNL2hb-MQ2Tc_IjpqKU1XTbSGN6MF8",
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Clint does.",
-//     name: "Mbah Daniel",
-//     designation: "CEO",
-//     company: "Elite Panel237",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "Clint has been the most 'open-to-learn-new-things' student I have had in all my Algorithms and data structures classes",
-//     name: "Carlyle Ankeambom",
-//     designation: "Tutor",
-//     company: "Rebase Academy",
-//     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYI05R8njC7PiGxxK_l04fxSBAVOV68Op0S-HaNH48kFJ480Y-V7ouPY7jC6RINKdxVNE&usqp=CAU",
-//   },
-// ];
+const testimonials = [
+  {
+    testimonial:
+      "I'm truly marveled at how Clint is able to bring my figma designs to life, even the ones I thought should be very difficult. Clint is indeed Skillful.",
+    name: "Boanong Joshua",
+    designation: "UI/UX Designer",
+    company: "OptimU",
+    image: "https://media.licdn.com/dms/image/C5603AQHPgcHCnvja0A/profile-displayphoto-shrink_800_800/0/1553244387743?e=2147483647&v=beta&t=ySrlKHPHsPGRUaNL2hb-MQ2Tc_IjpqKU1XTbSGN6MF8",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Clint does.",
+    name: "Mbah Daniel",
+    designation: "CEO",
+    company: "Elite Panel237",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "Clint has been the most 'open-to-learn-new-things' student I have had in all my Algorithms and data structures classes",
+    name: "Carlyle Ankeambom",
+    designation: "Tutor",
+    company: "Rebase Academy",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYI05R8njC7PiGxxK_l04fxSBAVOV68Op0S-HaNH48kFJ480Y-V7ouPY7jC6RINKdxVNE&usqp=CAU",
+  },
+];
 
-// const projects = [
-//   {
-//     name: "Crypwatch",
-//     description:
-//       "Web-based platform that allows users to view and search crypto currencies to see current rankings, market value and total market capital. ",
-//     tags: [
-//       {
-//         name: "reactjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "chartjs",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "axios",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: crypwatch,
-//     source_code_link: "https://github.com/clint360/Crypwatch",
-//   },
-//   {
-//     name: "SchoolSavvy",
-//     description:
-//       "A web and desktop application to be used by schools or other educational institutions to keep track of admissions, payments and other related stats built on ReactJS and Electron. ",
-//     tags: [
-//       {
-//         name: "reactJS",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "electronJS",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "react-google-charts",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: schoolsavvy,
-//     source_code_link: "https://github.com/clint360/StudentManagement",
-//   },
-//   {
-//     name: "Twitter Clone",
-//     description:
-//       "A limited twitter clone where users can sign up, get in to their accounts, tween and get like and comments",
-//     tags: [
-//       {
-//         name: "nextjs",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "firebase",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: twitter,
-//     source_code_link: "https://github.com/twitter-clone",
-//   },
-//   {
-//     name: "Xchange",
-//     description:
-//       "A currency Exchange application and wallet simulation  that allows users to simulate thier finances in different currency wallets and perform conversions. This can help you quickly decide how much you want to send to someone in another country.",
-//     tags: [
-//       {
-//         name: "reactJS",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "figma",
-//         color: "green-text-gradient",
-//       },
-//     ],
-//     image: xchange,
-//     source_code_link: "https://github.com/clint360/xchange",
-//   },
-//   {
-//     name: "Linkview",
-//     description:
-//       "A FullStack link preview application where people can see what a site looks like before getting to actually click and get into the site. A work in progress to generate a package which can be intergrated for use in other applications.",
-//     tags: [
-//       {
-//         name: "vite",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "nodeJS",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "reactJS",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: linkview,
-//     source_code_link: "https://github.com/clint360/linkview",
-//   },
-//   {
-//     name: "iMessage Clone",
-//     description:
-//       "A FullStack messaging application where users can use to send and recieve message with media, emojis and links.",
-//     tags: [
-//       {
-//         name: "react-native",
-//         color: "blue-text-gradient",
-//       },
-//       {
-//         name: "nodeJS",
-//         color: "green-text-gradient",
-//       },
-//       {
-//         name: "stream",
-//         color: "pink-text-gradient",
-//       },
-//     ],
-//     image: imessage,
-//     source_code_link: "https://github.com/clint360/imessage-clone",
-//   },
-// ];
+const projects = [];
 
 export { services, technologies, experiences, testimonials, projects };
