@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5 landingView">
         <h4 className=" text-lg font-normal">WELCOME TO MY PORTFOLIO SITE</h4>
         <h1 className="text-6xl font-bold text-white bigtext" style={{fontSize: "3.2rem"}}>
-          Hi, I'm <span className="text-designColor capitalize">Dylan O'berry</span>
+          Hi, I'm <span className="text-designColor capitalize">Dylan OBerry</span>
         </h1>
         <h2 style={{fontSize: "1.7rem"}}>
           a <span className='textbl'>{text}</span>
